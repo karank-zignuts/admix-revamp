@@ -1,0 +1,9 @@
+export { AboutSection } from "./AboutSection";
+export { ApplicationsSection } from "./ApplicationsSection";
+export { ContactSection } from "./ContactSection";
+export { Footer } from "./Footer";
+export { GlobalPresenceSection } from "./GlobalPresenceSection";
+export { Hero } from "./Hero";
+export { ProductsSection } from "./ProductsSection";
+export { QualitySection } from "./QualitySection";
+export { TestimonialsSection } from "./TestimonialsSection";
