@@ -8,17 +8,19 @@ import {
   ProductsSection,
   QualitySection,
   TestimonialsSection,
+  TextEffectSection,
 } from "@/components/main";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#f8f8f2] text-neutral-950">
       <Hero />
+      <QualitySection />
+      <TextEffectSection />
       <ApplicationsSection />
       <ProductsSection />
-      <QualitySection />
-      <GlobalPresenceSection />
       <TestimonialsSection />
+      <GlobalPresenceSection />
       <AboutSection />
       <ContactSection />
       <Footer />

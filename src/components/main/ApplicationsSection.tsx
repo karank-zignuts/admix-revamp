@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowRight, ChevronRight } from "lucide-react";
+import { ChevronRight } from "lucide-react";
 import { motion, useReducedMotion } from "motion/react";
 import Image from "next/image";
 import { useState } from "react";
@@ -26,12 +26,6 @@ export function ApplicationsSection() {
           <p className="mt-5 max-w-xl text-sm leading-6 text-neutral-600 sm:text-base">
             {applicationsContent.body}
           </p>
-          <a
-            href={applicationsContent.cta.href}
-            className="mt-7 inline-flex h-11 w-fit items-center gap-2 rounded-lg bg-[#f3f6d8] px-5 text-sm font-medium text-neutral-950 transition hover:bg-[#e6efb8]"
-          >
-            {applicationsContent.cta.label} <ArrowRight className="size-4" />
-          </a>
         </div>
 
         <div className="grid gap-4 lg:grid-cols-[1.1fr_0.9fr]">

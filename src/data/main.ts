@@ -1,8 +1,10 @@
 export const navItems = [
-  { label: "About", href: "#about" },
+  { label: "Quality", href: "#quality" },
   { label: "Applications", href: "#applications" },
   { label: "Products", href: "#products" },
-  { label: "Quality", href: "#quality" },
+  { label: "Testimonials", href: "#testimonials" },
+  { label: "Global Presence", href: "#globalPresence" },
+  { label: "About", href: "#about" },
   { label: "Contact", href: "#contact" },
 ] as const;
 
@@ -134,6 +136,16 @@ export const servicePromises = [
   "World Class Service",
   "Fast Delivery",
 ] as const;
+
+export const textEffectContent = {
+  prefix: "Quality you can trust 🤝🏻 for ",
+  words: [
+    "public utilities",
+    "industrial projects",
+    "infrastructure work",
+    "long-term installations"
+  ],
+} as const;
 
 export const globalPresenceContent = {
   eyebrow: "Global presence",

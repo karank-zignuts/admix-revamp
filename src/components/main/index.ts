@@ -6,4 +6,6 @@ export { GlobalPresenceSection } from "./GlobalPresenceSection";
 export { Hero } from "./Hero";
 export { ProductsSection } from "./ProductsSection";
 export { QualitySection } from "./QualitySection";
+export { SmoothScrollProvider } from "./SmoothScrollProvider";
 export { TestimonialsSection } from "./TestimonialsSection";
+export { TextEffectSection } from "./TextEffectSection";

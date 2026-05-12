@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import { Caveat, Geist_Mono, Oswald } from "next/font/google";
 import Script from "next/script";
+import "lenis/dist/lenis.css";
 import "./globals.css";
+
+import { SmoothScrollProvider } from "@/components/main/SmoothScrollProvider";
 
 const oswald = Oswald({
   variable: "--font-oswald",
@@ -71,7 +74,7 @@ export default function RootLayout({
           strategy="beforeInteractive"
           dangerouslySetInnerHTML={{ __html: hydrationAttributeCleanup }}
         />
-        {children}
+        <SmoothScrollProvider>{children}</SmoothScrollProvider>
       </body>
     </html>
   );
